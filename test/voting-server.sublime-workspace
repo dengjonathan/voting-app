@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"username"
+			],
+			[
+				"se",
+				"sequelize"
+			],
+			[
 				"next",
 				"nextState"
 			],
@@ -384,20 +392,18 @@
 	"buffers":
 	[
 		{
-			"file": "core.js",
+			"file": "/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/core.js",
 			"settings":
 			{
 				"buffer_size": 910,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jonathandeng/GoogleDrive/Programming/voting-server/test/core_spec.js",
+			"file": "core_spec.js",
 			"settings":
 			{
 				"buffer_size": 2802,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -465,10 +471,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "eslint",
+		"height": 81.0,
+		"last_filter": "save work",
 		"selected_items":
 		[
+			[
+				"save work",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"flo",
+				"Floobits - Share Directory (Private)"
+			],
 			[
 				"eslint",
 				"ESLint"
@@ -592,10 +606,6 @@
 			[
 				"gist",
 				"Gist: Open Gist"
-			],
-			[
-				"flo",
-				"Floobits - Join Recent Workspace"
 			],
 			[
 				"floo join",
@@ -899,6 +909,12 @@
 	],
 	"file_history":
 	[
+		"/Users/jonathandeng/Downloads/course.databases.solution/orm-refactor.solution/db/index.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/server/spec/server-spec.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/server/schema.sql",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/client/client/scripts/app.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/client/client/env/config.example.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/package.json",
 		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/package.json",
 		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/.eslintrc.json",
 		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/.eslintrc",
@@ -1020,17 +1036,11 @@
 		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/spec/pirateSpec.js",
 		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/spec/screamSpec.js",
 		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/spec/jugSpec.js",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/src/blinkyDancer.js",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/src/pirate.js",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/spec/pigDangerSpec.js",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/assets/pictures.zip",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/init",
-		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/breakglass/README.md",
-		"/usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.2.1/lib/jekyll/plugin_manager"
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.subclass-dance-party.exercise/src/blinkyDancer.js"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -1046,6 +1056,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"db",
+			");\n",
 			"url",
 			"moment",
 			"OPTION",
@@ -1133,7 +1145,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "core.js",
+					"file": "/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/core.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1144,13 +1156,12 @@
 						"selection":
 						[
 							[
-								910,
-								910
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1228,7 +1239,6 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material Brogrammer.tmTheme",
 							"git_savvy.file_path": "/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/core.js",
 							"git_savvy.repo_path": "/Users/jonathandeng/GoogleDrive/Programming/voting-server",
-							"history_list_is_closing": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1237,7 +1247,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1248,7 +1258,7 @@
 			[
 				{
 					"buffer": 1,
-					"file": "/Users/jonathandeng/GoogleDrive/Programming/voting-server/test/core_spec.js",
+					"file": "core_spec.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1259,39 +1269,23 @@
 						"selection":
 						[
 							[
-								2259,
-								2259
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										2426,
-										2427
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										2258,
-										2259
-									]
 								},
 								"unmatched":
 								{
@@ -1366,7 +1360,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1440,12 +1434,32 @@
 		"selected_items":
 		[
 			[
-				"pack",
-				"package.json"
+				"test/c",
+				"test/core_spec.js"
 			],
 			[
 				"core",
-				"test/core_spec.js"
+				"src/core.js"
+			],
+			[
+				"spec",
+				"server/spec/server-spec.js"
+			],
+			[
+				"controllers/",
+				"server/controllers/index.js"
+			],
+			[
+				"spec/",
+				"server/spec/server-spec.js"
+			],
+			[
+				"db/",
+				"server/db/index.js"
+			],
+			[
+				"pack",
+				"package.json"
 			],
 			[
 				"test/pi",
@@ -1804,10 +1818,6 @@
 				"src/solvers.js"
 			],
 			[
-				"spec",
-				"spec/solversSpec.js"
-			],
-			[
 				"boar",
 				"spec/BoardSpec.js"
 			],
@@ -1900,10 +1910,6 @@
 				"spec/blinkyDancerSpec.js"
 			],
 			[
-				"spec/",
-				"spec/hashTableSpec.js"
-			],
-			[
 				"ha",
 				"src/hashTableHelpers.js"
 			],
@@ -1938,18 +1944,6 @@
 			[
 				"userdeta",
 				"app/components/UserDetailsWrapper.js"
-			],
-			[
-				"resul",
-				"app/components/Results.js"
-			],
-			[
-				"result",
-				"node_modules/lodash/result.js"
-			],
-			[
-				"gith",
-				"app/utils/githubHelpers.js"
 			]
 		],
 		"width": 0.0
@@ -1972,7 +1966,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

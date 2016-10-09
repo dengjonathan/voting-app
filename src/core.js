@@ -21,6 +21,14 @@ export function setEntries(state, entries) {
 export function next(state) {
   const entries = state.get('entries')
     .concat(getWinners(state.get('vote')));
+  if (entries.size === 1) {
+    // could have just returned a new map Map({winners: entries.first()})
+    // but good to show what you explicity changed/removed, incase you add
+    // other state in the future that's not meant to be altered by this functioin
+    return state.remove('vote')
+      .remove('entries')
+      .set('winner', entries.first());
+  }
   return state.merge({
     vote: Map({ pair: entries.take(2) }),
     entries: entries.skip(2)
