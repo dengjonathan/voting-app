@@ -1,0 +1,23 @@
+{
+  "name": "voting-client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^3.1.0",
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:new": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\""
+  }
+}
