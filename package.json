@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
-    "test:watch": "npm run test --watch"
+    "test": "node_modules/mocha/bin/mocha --compilers js:babel-core/register --require ./test/test_helper.js --watch",
+    "test:watch": "npm run test --watch test/*.js src/*.js",
+    "start": "babel-node index.js"
   },
   "babel": {
     "presets": [
@@ -26,6 +27,8 @@
     "mocha": "^3.1.0"
   },
   "dependencies": {
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "redux": "^3.6.0",
+    "socket.io": "^1.5.0"
   }
 }
