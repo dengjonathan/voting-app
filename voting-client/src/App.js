@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+
+import Pair from './components/Pair'
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    //this.state = store.getState(); //TODO get state
+    // this.props = {
+    //   //default props
+    // }
+  }
+
   render() {
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Pair pair={[/*TODO get first two movies */]} />
       </div>
     );
   }
+}
+
+App.propTypes = {
+
+}
+
+App.defaultProps = {
+
 }
 
 export default App;
