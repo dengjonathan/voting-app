@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pair = ({pair}) => (
+const Voting = ({pair}) => (
   <div className="voting">
     {pair.map(entry => (
       <button key={entry}>
@@ -10,4 +10,4 @@ const Pair = ({pair}) => (
   </div>
 );
 
-export default Pair;
+export default Voting;
